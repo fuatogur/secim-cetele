@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "rte-kk-cetele",
+    "name": "2.TUR ÇETELE",
     "slug": "rte-kk-cetele",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon2.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,13 +18,12 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.fuatogur.rtekkcetele"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "3ee939d8-5fa7-47b2-adf5-715c1e167ed9"
+      }
     }
   }
 }
